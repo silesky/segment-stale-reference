@@ -9,3 +9,5 @@ npm start
  if (window.analytics.initialized) {...}
 ```
 click 'track' and observe console error.
+
+PR: https://github.com/segmentio/snippet/pull/116/files
