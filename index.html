@@ -30,8 +30,6 @@
             var t = document.createElement("script");
             t.type = "text/javascript";
             t.async = !0;
-            // pev-2659 - switch to classic version as recommended
-            // slack channel : #pev-2659-2023-03-23-the-rate-of-firing-events-dropped-for-storefront-and-in-gene
             t.src = "https://cdn.segment.io/analytics.js/v1/" + key + "/analytics.min.js";
             var n = document.getElementsByTagName("script")[0];
             n.parentNode.insertBefore(t, n);
